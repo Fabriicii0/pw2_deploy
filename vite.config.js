@@ -5,7 +5,7 @@ import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import htmlPurge from 'vite-plugin-purgecss';
 export default defineConfig(
     {
-        base: '/',
+        base: '/pw2_deploy/',
         appType: 'mpa',
         build: {
             rollupOptions: {
